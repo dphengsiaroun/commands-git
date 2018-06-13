@@ -32,6 +32,17 @@ $ git push -u origin --tags
 ````
 
 ## Les commandes basiques
+### Créer un repository
+````
+$ git init
+````
+### Préparer un commit en ajoutant des fichiers : 
+````
+$ git add <fichiers ou répertoires> 
+ou 
+$ git add --all //pour ajouter tous les fichiers modifiés depuis le dernier commit
+````
+
 ### Faire un commit
 ````
 $ git commit -m "Initial commit"
@@ -57,4 +68,3 @@ $ git branch v1
 ````
 $ git checkout master
 ````
-
