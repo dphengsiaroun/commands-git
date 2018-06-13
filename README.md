@@ -68,3 +68,11 @@ $ git branch v1
 ````
 $ git checkout master
 ````
+
+
+## Commande pour supprimer un dossier ou fichier mis par erreur
+````
+$ git rm -r --cached node_module
+$ git commit -m 'Remove the now ignored directory node_modules'
+$ git push origin master
+````
